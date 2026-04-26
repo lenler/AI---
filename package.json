@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "check": "tsc -b --noEmit"
+    "check": "tsc -b --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@types/react-syntax-highlighter": "^15.5.13",
