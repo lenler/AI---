@@ -5,7 +5,7 @@ import { traeBadgePlugin } from "vite-plugin-trae-solo-badge";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/<repo>/",
+  base: "./",
   server: {
     watch: {
       usePolling: true,
